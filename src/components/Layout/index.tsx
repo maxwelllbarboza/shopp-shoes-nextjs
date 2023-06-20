@@ -9,9 +9,9 @@ interface IProps {
 function Layout({ children }:IProps) {
     return(
        <main className={styles.container}>
-        <Header/>
-        <div>{children}</div>
-        <Footer/>
+            <Header/>
+            <div>{children}</div>
+            <Footer/>
        </main>
         
     )
